@@ -14,7 +14,7 @@ public class ApplicationController {
  
 	@RequestMapping(value="/Test", method = RequestMethod.GET)
 	public String welcome(ModelMap model) { 
-		model.addAttribute("msgArgument", "Dev-Ops Excercise Test Message");
+		model.addAttribute("msgArgument", " Dev__Ops Excercise Test Message");
 
 		return "index";
  
