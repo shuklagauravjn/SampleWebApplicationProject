@@ -1,5 +1,5 @@
 projectKey=springwebapp
 serverUrl=http://localhost:7000
 dashboardUrl=http://localhost:7000/dashboard/index/springwebapp
-ceTaskId=AV9FLnpWEuwOCfbrSSoF
-ceTaskUrl=http://localhost:7000/api/ce/task?id=AV9FLnpWEuwOCfbrSSoF
+ceTaskId=AV9FYQ87EuwOCfbrSSoG
+ceTaskUrl=http://localhost:7000/api/ce/task?id=AV9FYQ87EuwOCfbrSSoG
