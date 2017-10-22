@@ -10,7 +10,15 @@ import org.hibernate.validator.constraints.NotEmpty;
 public class Car {
 	@NotEmpty
 	private String name;
+	@NotEmpty
+	private String imageName;
 	
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
 	@Min(1000) @Max(5000000)
 	private BigDecimal price;
 	

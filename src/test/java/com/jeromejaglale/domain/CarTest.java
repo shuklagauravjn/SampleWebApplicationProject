@@ -54,5 +54,14 @@ public class CarTest {
 		car.setPrice(new BigDecimal(25000));
 		assertEquals(car.getPrice(),new BigDecimal(25000));
 	}
+	@Test
+	public void testSetImageName() {
+		car.setImageName("Mercedes.img");
+		assertEquals(car.getImageName(),"Mercedes.img");
+	}
+	@Test
+	public void testGetImageName() {
+		assertEquals(car.getImageName(),null);
+	}
 
 }

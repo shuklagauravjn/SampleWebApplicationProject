@@ -78,4 +78,6 @@ public class CarController {
 	    responseOutputStream.write(imgByte);
 	    responseOutputStream.flush();
 	    responseOutputStream.close();
-	  }}
+	  }
+
+	}
