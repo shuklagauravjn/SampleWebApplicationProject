@@ -92,8 +92,8 @@ public class CarTest {
 	
 	@Test
 	public void testSetImageName() {
-		car.setImageName("NewMercedesImage.img");
-		assertEquals(car.getImageName(),"NewMercedesImage.img");
+		car.setImageName("MercedesImage.img");
+		assertEquals(car.getImageName(),"MercedesImage.img");
 	}
 	/**
 	 * test method for the car's image name is getting retrieved or not
