@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1508687858000" analysisTimestamp="1508694193098" release="">
+  <Project>
+    <Jar>/Users/gauravshukla/git/SampleWebApplicationProject/target/classes/com/jeromejaglale/config/AppConfig.class</Jar>
+    <Jar>/Users/gauravshukla/git/SampleWebApplicationProject/target/classes/com/jeromejaglale/config/ServletInitializer.class</Jar>
+    <Jar>/Users/gauravshukla/git/SampleWebApplicationProject/target/classes/com/jeromejaglale/controller/CarController.class</Jar>
+    <Jar>/Users/gauravshukla/git/SampleWebApplicationProject/target/classes/com/jeromejaglale/domain/Car.class</Jar>
+    <Jar>/Users/gauravshukla/git/SampleWebApplicationProject/target/classes/com/jeromejaglale/service/CarService.class</Jar>
+    <AuxClasspathEntry>/Users/gauravshukla/git/SampleWebApplicationProject/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/gauravshukla/git/SampleWebApplicationProject/.sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/gauravshukla/git/SampleWebApplicationProject/.sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/Users/gauravshukla/git/SampleWebApplicationProject/.sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="7">
+    <MissingClass>javax.servlet.ServletOutputStream</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServletRequest</MissingClass>
+    <MissingClass>javax.servlet.http.HttpServletResponse</MissingClass>
+    <MissingClass>org.springframework.ui.Model</MissingClass>
+    <MissingClass>org.springframework.validation.BindingResult</MissingClass>
+    <MissingClass>org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer</MissingClass>
+    <MissingClass>org.springframework.web.servlet.view.InternalResourceViewResolver</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sun, 22 Oct 2017 21:27:38 +0530" total_classes="5" referenced_classes="25" total_bugs="0" total_size="97" num_packages="4" java_version="1.8.0_131" vm_version="25.131-b11" cpu_seconds="6.10" clock_seconds="1.40" peak_mbytes="251.29" alloc_mbytes="3641.00" gc_seconds="0.02">
+    <FileStats path="com/jeromejaglale/config/AppConfig.java" bugCount="0" size="9"/>
+    <FileStats path="com/jeromejaglale/config/ServletInitializer.java" bugCount="0" size="9"/>
+    <FileStats path="com/jeromejaglale/controller/CarController.java" bugCount="0" size="35"/>
+    <FileStats path="com/jeromejaglale/domain/Car.java" bugCount="0" size="21"/>
+    <FileStats path="com/jeromejaglale/service/CarService.java" bugCount="0" size="23"/>
+    <PackageStats package="com.jeromejaglale.config" total_bugs="0" total_types="2" total_size="18">
+      <ClassStats class="com.jeromejaglale.config.AppConfig" sourceFile="AppConfig.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.jeromejaglale.config.ServletInitializer" sourceFile="ServletInitializer.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jeromejaglale.controller" total_bugs="0" total_types="1" total_size="35">
+      <ClassStats class="com.jeromejaglale.controller.CarController" sourceFile="CarController.java" interface="false" size="35" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jeromejaglale.domain" total_bugs="0" total_types="1" total_size="21">
+      <ClassStats class="com.jeromejaglale.domain.Car" sourceFile="Car.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.jeromejaglale.service" total_bugs="0" total_types="1" total_size="23">
+      <ClassStats class="com.jeromejaglale.service.CarService" sourceFile="CarService.java" interface="false" size="23" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="205" invocations="451" avgMicrosecondsPerInvocation="456" maxMicrosecondsPerInvocation="21251" standardDeviationMircosecondsPerInvocation="1488"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="59" invocations="25" avgMicrosecondsPerInvocation="2389" maxMicrosecondsPerInvocation="14361" standardDeviationMircosecondsPerInvocation="3786"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="56" invocations="127" avgMicrosecondsPerInvocation="441" maxMicrosecondsPerInvocation="6755" standardDeviationMircosecondsPerInvocation="924"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="51" invocations="454" avgMicrosecondsPerInvocation="113" maxMicrosecondsPerInvocation="373" standardDeviationMircosecondsPerInvocation="51"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="45" invocations="21" avgMicrosecondsPerInvocation="2148" maxMicrosecondsPerInvocation="40699" standardDeviationMircosecondsPerInvocation="8626"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="32" invocations="25" avgMicrosecondsPerInvocation="1309" maxMicrosecondsPerInvocation="6962" standardDeviationMircosecondsPerInvocation="1899"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="31" invocations="397" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="1835" standardDeviationMircosecondsPerInvocation="159"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="31" invocations="55" avgMicrosecondsPerInvocation="564" maxMicrosecondsPerInvocation="16903" standardDeviationMircosecondsPerInvocation="2310"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="23" invocations="25" avgMicrosecondsPerInvocation="939" maxMicrosecondsPerInvocation="6504" standardDeviationMircosecondsPerInvocation="1807"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="22" invocations="25" avgMicrosecondsPerInvocation="900" maxMicrosecondsPerInvocation="7236" standardDeviationMircosecondsPerInvocation="1561"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="20" invocations="21" avgMicrosecondsPerInvocation="964" maxMicrosecondsPerInvocation="12588" standardDeviationMircosecondsPerInvocation="2644"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="19" invocations="21" avgMicrosecondsPerInvocation="927" maxMicrosecondsPerInvocation="10226" standardDeviationMircosecondsPerInvocation="2191"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="18" invocations="21" avgMicrosecondsPerInvocation="870" maxMicrosecondsPerInvocation="9572" standardDeviationMircosecondsPerInvocation="2053"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="17" invocations="21" avgMicrosecondsPerInvocation="849" maxMicrosecondsPerInvocation="10540" standardDeviationMircosecondsPerInvocation="2208"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="17" invocations="25" avgMicrosecondsPerInvocation="698" maxMicrosecondsPerInvocation="9608" standardDeviationMircosecondsPerInvocation="1866"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="14" invocations="25" avgMicrosecondsPerInvocation="597" maxMicrosecondsPerInvocation="4515" standardDeviationMircosecondsPerInvocation="1017"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="13" invocations="5" avgMicrosecondsPerInvocation="2650" maxMicrosecondsPerInvocation="6627" standardDeviationMircosecondsPerInvocation="2981"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
